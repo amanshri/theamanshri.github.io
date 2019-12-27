@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aman's Website</title>
+
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+   
+<div class="container">
+    <form action="../index.html" onsubmit="return submit()">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message For Me :</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <button  type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>     
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="../bootstrap/js/bootstrap.min.js" ></script>
+<script>
+function submit()
+{
+    console.log('submitted')
+    window.alert("form successfully submitted");
+    return false;
+}
+</script>
+</body>
+</html>

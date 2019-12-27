@@ -1,0 +1,26 @@
+.back{
+background-image: url("../images/1.jpg");
+width: 100%; height: 100%;
+background-size: cover;
+}
+.back2{
+    background-image: url("../images/bg1.jpg");
+    width: 100%; height: 100%;
+    background-size: cover;
+    }
+    .backbg2{
+        background-image: url("../images/bg2.jpg");
+        width: 100%; height: 100%;
+        background-size: cover;
+        }   
+img{height: 100%;margin: 0px;}
+html, body { height: 100%;margin: 0px;}
+
+.blue{background-color: lawngreen;}
+.absolute{position: absolute;}
+.relative{position: relative;}
+.jumbo{opacity: 0.9;margin:10px; margin-top: 350px;width:95%}
+.opacity{opacity: 4;}
+
+
+.red{background-color: red;}
