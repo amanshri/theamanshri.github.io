@@ -1,5 +1,8 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
+canvas.width  = window.innerWidth-30;
+canvas.height = window.innerHeight-20;
+
 var ballRadius = 10;
 var x = canvas.width/2;
 var y = canvas.height/2;
@@ -197,8 +200,6 @@ function draw() {
  
   requestAnimationFrame(draw);
 }
-canvas.width  = window.innerWidth-30;
-canvas.height = window.innerHeight-20;
 
  
 draw();
