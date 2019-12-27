@@ -10,7 +10,7 @@
 .absolute{position: absolute;}
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 1px;
   }
 
 .back{
