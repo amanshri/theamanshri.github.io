@@ -5,9 +5,8 @@
 
 .zoom {
     transition: transform .2s;
-    width: 200px;
-    height: 200px;
-   
+    width: 17px;
+    height: 17px;
   }
   
   .zoom:hover {
@@ -18,9 +17,10 @@
 
 button
 {
-position: fixed;
+  position: absolute;
   top: 50%;
-  right:4%
+  right:4%;
+  background-color: #000;
 }
  
 .icon-bar {
@@ -44,6 +44,13 @@ position: fixed;
 .icon-bar a:hover {
   background-color: #000;
 }
+
+
+.github {
+  background: rgb(11, 34, 82);
+  color: white;
+}
+
 
 .facebook {
   background: #3B5998;
