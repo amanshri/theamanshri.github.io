@@ -1,7 +1,7 @@
 
  .absolute{position:absolute}
  .relative{position:relative}
-
+.red{background-color: red;}
 
 .zoom {
     transition: transform .2s;
@@ -15,14 +15,51 @@
     transform: scale(1.5); 
   }
 
-button
+.moregames
+{
+  opacity: 0.6;
+  position: absolute;
+  top: 74%;
+  right:8%;
+  color: #bb0000;
+  font-family: fantasy;
+}
+
+#hide
+{
+  position: absolute;
+  top: 70%;
+  right:45%;
+  font-family: fantasy;
+}
+
+#hide1
 {
   position: absolute;
   top: 50%;
   right:4%;
-  background-color: #000;
+  color: #bb0000;
+  font-family: fantasy;
+  opacity: 0.6;
 }
- 
+
+.button1
+{
+  position: absolute;
+  top: 50%;
+  right:4%;
+  height: 50px;
+  width: 50px;
+}
+.button2
+{
+  position: absolute;
+  top: 80%;
+  right:8%;
+  height: 30px;
+  width: 30px;
+  font-size: large;
+}
 .icon-bar {
   
   position: fixed;
@@ -81,3 +118,8 @@ button
  
   font-size: 30px;
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
